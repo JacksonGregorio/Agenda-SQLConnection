@@ -1,0 +1,10 @@
+//Criação da tabela no SQL//
+use delphi;
+create table Agenda(
+id int primary key,
+nome varchar(40),
+numero varchar(20),
+bloqueado boolean,
+observacoes text,
+datahora datetime
+);
